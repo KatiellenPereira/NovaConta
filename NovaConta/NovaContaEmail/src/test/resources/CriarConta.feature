@@ -17,5 +17,4 @@ Feature: Cadastro de E-mail
     And gênero "Feminino"
     And clico em 'Próxima'
     And concordo com os termos 
-		Then visualizo a página inicial
-		
+		Then visualizo a página inicial	
