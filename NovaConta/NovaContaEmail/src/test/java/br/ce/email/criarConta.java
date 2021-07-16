@@ -82,21 +82,21 @@ public class criarConta {
 	public void abre_a_tela_de_verificar_número_informo() throws Throwable {
 		String texto = driver.findElement(By.xpath("//div[@class='jXeDnc ']")).getText();
 		Assert.assertEquals("Verifique seu número de telefone", texto);
-		Thread.sleep(12000);
+		Thread.sleep(8000);
 	}
 
 	@When("^clico em 'Verificar'$")
 	public void clico_em_Verificar() throws Throwable {
 		try {
-			Thread.sleep(28000);
-			System.out.println(driver.findElement(By.id("code")).getAttribute(("data-initial-value")).length());
+			Thread.sleep(8000);
+			
 			if (driver.findElement(By.id("code")).getAttribute(("data-initial-value")).length() < 6) {
-				Thread.sleep(28000);Thread.sleep(28000);
+				Thread.sleep(3000);Thread.sleep(8000);
 			}
 			
 		} catch (Exception e) {
 			if (driver.findElement(By.className("whsOnd zHQkBf")).getAttribute(("data-initial-value")).length() < 6) {
-				Thread.sleep(28000);
+				Thread.sleep(8000);
 			}
 		}
 		
@@ -106,7 +106,7 @@ public class criarConta {
 
 	@When("^informar o dia \"([^\"]*)\" , mês \"([^\"]*)\" e ano \"([^\"]*)\"$")
 	public void informar_o_dia_mês_e_ano(String arg1, int arg2, String arg3) throws Throwable {
-		Thread.sleep(2800);
+		Thread.sleep(2000);
 		driver.findElement(By.id("day")).sendKeys(arg1);
 		Select dropdown = new Select(driver.findElement(By.id("month")));
 		dropdown.selectByIndex(arg2);		
