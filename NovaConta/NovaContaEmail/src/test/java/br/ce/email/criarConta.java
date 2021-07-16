@@ -141,7 +141,7 @@ public class criarConta {
 	public void screenshoot(Scenario cenario) {
 		File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		try {
-			FileUtils.copyFile(file, new File("target/screenshot/" + cenario.getId() + ".jpg"));
+			FileUtils.copyFile(file, new File("src/test/java/br/ce/screenshot/screenshot/" + cenario.getId() + ".jpg"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
