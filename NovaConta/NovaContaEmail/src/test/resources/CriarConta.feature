@@ -4,10 +4,10 @@ Feature: Cadastro de E-mail
   Scenario:  Deve ser cadastrado um novo e-mail com sucesso
     Given no site do Gmail
     And clico em 'crie uma conta'
-    When informar o nome "Rosane"
-    And informar o sobrenome "Silva Solange"
-    And informar nome de usuário "Margarida2021Rosangela"
-    And  informar e confirmar a senha "trokeidesenha@"
+    When informar o nome "Bete Regina"
+    And informar o sobrenome "Porporati Silva"
+    And informar nome de usuário "Porporatiltda0607"
+    And  informar e confirmar a senha "novasenhaempresa123"
     And clico em 'Próxima'
     When informo o numero "51999972753"
     And então clico em 'Próxima'

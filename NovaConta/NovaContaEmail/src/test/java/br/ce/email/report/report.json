@@ -1,0 +1,275 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Deve ser cadastrado um novo e-mail com sucesso",
+        "description": "",
+        "id": "cadastro-de-e-mail;deve-ser-cadastrado-um-novo-e-mail-com-sucesso",
+        "after": [
+          {
+            "result": {
+              "duration": 19035529700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "criarConta.screenshoot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11132690100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "no site do Gmail",
+            "match": {
+              "location": "criarConta.no_site_do_Gmail()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2039699300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clico em \u0027crie uma conta\u0027",
+            "match": {
+              "location": "criarConta.clico_em_crie_uma_connta()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 224495100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "informar o nome \"Bete Regina\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bete Regina",
+                  "offset": 17
+                }
+              ],
+              "location": "criarConta.informar_o_nome(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 924850300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "informar o sobrenome \"Porporati Silva\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Porporati Silva",
+                  "offset": 22
+                }
+              ],
+              "location": "criarConta.informar_o_sobrenome(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 396402100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "informar nome de usuário \"Porporatiltda0607\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Porporatiltda0607",
+                  "offset": 26
+                }
+              ],
+              "location": "criarConta.informar_nome_de_usuário(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 607782200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "informar e confirmar a senha \"novasenhaempresa123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "novasenhaempresa123",
+                  "offset": 30
+                }
+              ],
+              "location": "criarConta.informar_e_confirmar_a_senha(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 207972600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico em \u0027Próxima\u0027",
+            "match": {
+              "location": "criarConta.clico_em_Próxima()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2677989500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "informo o numero \"51999972753\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "51999972753",
+                  "offset": 18
+                }
+              ],
+              "location": "criarConta.informo_o_numero(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 197010000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "então clico em \u0027Próxima\u0027",
+            "match": {
+              "location": "criarConta.então_clico_em_Próxima()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12209173800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "abre a tela de verificar número, informo",
+            "match": {
+              "location": "criarConta.abre_a_tela_de_verificar_número_informo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28328269600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "clico em \u0027Verificar\u0027",
+            "match": {
+              "location": "criarConta.clico_em_Verificar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3570574800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "informar o dia \"01\" , mês \"10\" e ano \"1980\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "01",
+                  "offset": 16
+                },
+                {
+                  "val": "10",
+                  "offset": 27
+                },
+                {
+                  "val": "1980",
+                  "offset": 38
+                }
+              ],
+              "location": "criarConta.informar_o_dia_mês_e_ano(String,int,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 200401100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "gênero \"Feminino\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Feminino",
+                  "offset": 8
+                }
+              ],
+              "location": "criarConta.gênero(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111078600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "clico em \u0027Próxima\u0027",
+            "match": {
+              "location": "criarConta.clico_em_Próxima()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3530223200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "concordo com os termos",
+            "match": {
+              "location": "criarConta.concordo_com_os_termos()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1002398000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "visualizo a página inicial",
+            "match": {
+              "location": "criarConta.visualizo_a_página_inicial()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro de E-mail",
+    "description": "",
+    "id": "cadastro-de-e-mail",
+    "keyword": "Feature",
+    "uri": "src/test/resources/CriarConta.feature"
+  }
+]

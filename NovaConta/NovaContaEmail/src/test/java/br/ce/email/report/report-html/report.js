@@ -26,22 +26,22 @@ formatter.step({
 });
 formatter.step({
   "line": 7,
-  "name": "informar o nome \"Rosane\"",
+  "name": "informar o nome \"Bete Regina\"",
   "keyword": "When "
 });
 formatter.step({
   "line": 8,
-  "name": "informar o sobrenome \"Silva Solange\"",
+  "name": "informar o sobrenome \"Porporati Silva\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 9,
-  "name": "informar nome de usuário \"Margarida2021Rosangela\"",
+  "name": "informar nome de usuário \"Porporatiltda0607\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 10,
-  "name": "informar e confirmar a senha \"trokeidesenha@\"",
+  "name": "informar e confirmar a senha \"novasenhaempresa123\"",
   "keyword": "And "
 });
 formatter.step({
@@ -98,73 +98,73 @@ formatter.match({
   "location": "criarConta.no_site_do_Gmail()"
 });
 formatter.result({
-  "duration": 8712762200,
+  "duration": 11132690100,
   "status": "passed"
 });
 formatter.match({
   "location": "criarConta.clico_em_crie_uma_connta()"
 });
 formatter.result({
-  "duration": 1629335400,
+  "duration": 2039699300,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Rosane",
+      "val": "Bete Regina",
       "offset": 17
     }
   ],
   "location": "criarConta.informar_o_nome(String)"
 });
 formatter.result({
-  "duration": 137367700,
+  "duration": 224495100,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Silva Solange",
+      "val": "Porporati Silva",
       "offset": 22
     }
   ],
   "location": "criarConta.informar_o_sobrenome(String)"
 });
 formatter.result({
-  "duration": 712303800,
+  "duration": 924850300,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Margarida2021Rosangela",
+      "val": "Porporatiltda0607",
       "offset": 26
     }
   ],
   "location": "criarConta.informar_nome_de_usuário(String)"
 });
 formatter.result({
-  "duration": 229670600,
+  "duration": 396402100,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "trokeidesenha@",
+      "val": "novasenhaempresa123",
       "offset": 30
     }
   ],
   "location": "criarConta.informar_e_confirmar_a_senha(String)"
 });
 formatter.result({
-  "duration": 345531800,
+  "duration": 607782200,
   "status": "passed"
 });
 formatter.match({
   "location": "criarConta.clico_em_Próxima()"
 });
 formatter.result({
-  "duration": 121685700,
+  "duration": 207972600,
   "status": "passed"
 });
 formatter.match({
@@ -177,23 +177,87 @@ formatter.match({
   "location": "criarConta.informo_o_numero(String)"
 });
 formatter.result({
-  "duration": 2525796400,
+  "duration": 2677989500,
   "status": "passed"
 });
 formatter.match({
   "location": "criarConta.então_clico_em_Próxima()"
 });
 formatter.result({
-  "duration": 78554200,
+  "duration": 197010000,
   "status": "passed"
 });
 formatter.match({
   "location": "criarConta.abre_a_tela_de_verificar_número_informo()"
 });
 formatter.result({
-  "duration": 12050140400,
+  "duration": 12209173800,
   "status": "passed"
 });
 formatter.match({
   "location": "criarConta.clico_em_Verificar()"
+});
+formatter.result({
+  "duration": 28328269600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "01",
+      "offset": 16
+    },
+    {
+      "val": "10",
+      "offset": 27
+    },
+    {
+      "val": "1980",
+      "offset": 38
+    }
+  ],
+  "location": "criarConta.informar_o_dia_mês_e_ano(String,int,String)"
+});
+formatter.result({
+  "duration": 3570574800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Feminino",
+      "offset": 8
+    }
+  ],
+  "location": "criarConta.gênero(String)"
+});
+formatter.result({
+  "duration": 200401100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "criarConta.clico_em_Próxima()"
+});
+formatter.result({
+  "duration": 111078600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "criarConta.concordo_com_os_termos()"
+});
+formatter.result({
+  "duration": 3530223200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "criarConta.visualizo_a_página_inicial()"
+});
+formatter.result({
+  "duration": 1002398000,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 19035529700,
+  "status": "passed"
+});
 });
